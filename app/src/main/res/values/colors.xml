@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#87ceeb</color>     <!--original #008577-->
+    <color name="colorPrimaryDark">#000000</color> <!--original #00574B-->
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#c3c3c3</color>
+    <color name="securityTextColor">#06416B</color>
+    <color name="securityHeaderColor">#3291E6</color>
+
+    <!--security-->
+    <drawable name="textBackgroundColor">#E7F7FA</drawable>
+
+</resources>

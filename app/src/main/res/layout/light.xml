@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back"
+    android:id="@+id/light_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/relLayoutTopBar"
+        android:layout_alignParentTop="true">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relLayoutMiddle"
+        android:layout_below="@id/relLayoutTopBar"
+        android:layout_above="@id/relLayoutBottomBar">
+
+
+        <TextView
+            android:id="@+id/txtDistanceWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Nearby Distance (cm)"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/momcake_bold_wyon_a"
+            android:textColor="#151B54"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txtNearby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="130dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/momcake_bold_wyon_a"
+            android:textColor="#154360"
+            android:textSize="40dp"
+            android:text="Nearby(CM)"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txtTurnOnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="130dp"
+            android:fontFamily="@font/momcake_bold_wyon_a"
+            android:text="State"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/humidity_circle"
+            android:layout_width="820dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/txtHumidityTitle"
+            android:layout_marginTop="70dp"
+            android:indeterminateOnly="false"
+            android:progressDrawable="@drawable/light_circle"
+            tools:progress="0">
+
+        </ProgressBar>
+
+        <TextView
+            android:id="@+id/txtDateUltraSonic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Date"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="480dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/momcake_bold_wyon_a"
+            android:textColor="#151B54"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relLayoutBottomBar"
+        android:layout_alignParentBottom="true">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bottomNavView_Bar"
+            android:background="@drawable/white_grey_bottom_bar"
+            app:menu="@menu/bottom_navigation_menu">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

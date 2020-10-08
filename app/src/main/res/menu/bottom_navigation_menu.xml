@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_security"
+        android:icon="@drawable/ic_security_black_24dp"
+        android:title="Security"/>
+    <item
+        android:id="@+id/ic_humidity"
+        android:icon="@drawable/weather"
+        android:title="Humidity"/>
+    <item
+        android:id="@+id/ic_temperature"
+        android:icon="@drawable/temperature"
+        android:title="Temperature"/>
+    <item
+        android:id="@+id/ic_light"
+        android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+        android:title="Light"/>
+</menu>

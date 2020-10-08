@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LovelyHome</string>
+
+
+    <!--security-->
+    <string name="txtStatus">Status :</string>
+    <string name="txtResult">Retrieving data...</string>
+    <string name="btnHistory">Camera</string>
+    <string name="btnTurnOnAlarm">ON</string>
+    <string name="btnTurnOffAlarm">OFF</string>
+    <string name="txtData">Data :</string>
+    <string name="txtNotification">Notification :</string>
+    <string name="txtAlarm">Emergency Alarm :</string>
+    <string name="AlarmIsOn">Alarm is ringing on now!</string>
+    <string name="AlarmIsOff">Alarm is off now.</string>
+
+</resources>
